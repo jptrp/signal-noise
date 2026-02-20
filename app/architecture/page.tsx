@@ -11,6 +11,7 @@ export default function ArchitectureIndex() {
           Structural Governance in AI Systems →
         </Link>
       </div>
+      <p className="muted">This index grows slowly. Each entry is an architectural artifact.</p>
     </>
   );
 }

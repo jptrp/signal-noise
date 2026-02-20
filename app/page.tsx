@@ -9,6 +9,8 @@ export default function Home() {
         A public architecture lab exploring governance and structure in
         intelligent systems.
       </p>
+      <p className="muted">This is the public surface. Architecture notes appear over time.</p>
+      <p className="muted">No feed. No updates. Only artifacts.</p>
       <div className="list">
         <Link href="/architecture">Architecture →</Link>
       </div>
