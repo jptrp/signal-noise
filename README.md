@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Signal & Noise — V1
 
-## Getting Started
+This repository hosts the first public surface for Signal & Noise.
 
-First, run the development server:
+V1 is intentionally minimal.
+
+## Purpose
+
+Publish the first canonical architecture artifact:
+
+- `/architecture/structural-governance-in-ai-systems`
+
+This site is a document host. Not a product. Not a blog engine. Not a marketing surface.
+
+## Routes
+
+- `/` — minimal homepage
+- `/architecture` — index (single entry)
+- `/architecture/structural-governance-in-ai-systems` — canonical post
+
+## Guardrails (V1 constraints)
+
+Do **not** add the following in V1:
+
+- Markdown pipeline / content loaders
+- CMS
+- Analytics
+- Tags, dates, feeds, pagination
+- Product pages, services pages, pricing
+- About / Contact / Newsletter
+- Design ornament (gradients, glows, iconography, stock imagery)
+- “We” voice or team framing
+
+## Tone + Design
+
+- Monochrome
+- Whitespace-heavy
+- Quiet, archival, notebook-like
+- Embedded (uncaptioned) diagram is allowed
+- The artifact should stand alone without explanation
+
+## Dev
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deploy with defaults (no env vars required).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Checklist
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [ ] Still only 3 routes
+- [ ] Still no “we”
+- [ ] Still no content system
+- [ ] Still monochrome + whitespace
